@@ -1,5 +1,4 @@
 import pyowm
-# import config
 from config import API_TOKEN, OWM_TOKEN
 from aiogram.types import ContentTypes
 from pyowm.utils.config import get_default_config
@@ -18,12 +17,7 @@ class CityName(StatesGroup):
     city_name2 = State()
 
 
-#                       ///***--- BOT ---***\\\
-
-
-# Токен бота
-
-
+# ============================= BOT =============================
 # Уровень логов
 logging.basicConfig(level=logging.INFO)
 
