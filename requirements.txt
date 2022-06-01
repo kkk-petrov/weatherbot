@@ -1,4 +1,3 @@
 aiogram
-logging
 pyowm
 emoji
